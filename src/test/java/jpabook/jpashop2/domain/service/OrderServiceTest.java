@@ -70,6 +70,7 @@ public class OrderServiceTest {
     @Test
     public void 주문취소() throws Exception {
         //given
+        Member member = createMember();
 
         //when
 
