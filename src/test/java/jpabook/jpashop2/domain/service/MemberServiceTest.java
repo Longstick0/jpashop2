@@ -45,8 +45,6 @@ public class MemberServiceTest {
         Member member2 = new Member();
         member2.setName("jang");
 
-        Member member3 = new Member();
-
         //when
         memberService.join(member1);
         memberService.join(member2); //예외 발생!!
