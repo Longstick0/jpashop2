@@ -67,10 +67,11 @@ public class OrderServiceTest {
         fail();
     }
 
-    @Test
+    @org.junit.Test(expected = NotEnoughStockException.class)
     public void 주문취소() throws Exception {
         //given
         Member member = createMember();
+
 
         //when
 
